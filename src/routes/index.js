@@ -23,7 +23,7 @@ router.get('/', async (req, res) => {
       events: events,
       team: team,
       apiVersion: version,
-      uiVersion: appConfig.version
+      //uiVersion: appConfig.version
     });
   } catch (e) {
     console.log('get / Error: ', e.message);
